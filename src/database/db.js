@@ -7,7 +7,7 @@ const ddl = `
         tipo_ID VARCHAR(10),
         nombre VARCHAR(50),
         correo VARCHAR(50) UNIQUE,
-        contraseña VARCHAR(50),
+        contraseña VARCHAR(255),
         departamento_id INTEGER,
         rol_id INTEGER
     );
